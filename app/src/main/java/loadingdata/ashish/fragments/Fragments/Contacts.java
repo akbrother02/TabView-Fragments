@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 
 import loadingdata.ashish.fragments.R;
 
-public class TopRatedFragment extends Fragment {
+public class Contacts extends Fragment {
  
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

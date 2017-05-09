@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 
 import loadingdata.ashish.fragments.R;
 
-public class MoviesFragment extends Fragment {
+public class Calls extends Fragment {
  
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

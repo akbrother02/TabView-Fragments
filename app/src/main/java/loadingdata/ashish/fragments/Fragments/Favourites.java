@@ -9,9 +9,9 @@ import android.view.ViewGroup;
 import loadingdata.ashish.fragments.R;
 
 
-public class GamesFragment extends Fragment{
+public class Favourites extends Fragment{
 
-    public GamesFragment() {
+    public Favourites() {
         // Required empty public constructor
     }
 

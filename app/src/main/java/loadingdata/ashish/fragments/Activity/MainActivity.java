@@ -13,9 +13,9 @@ import android.support.v7.widget.Toolbar;
 import java.util.ArrayList;
 import java.util.List;
 
-import loadingdata.ashish.fragments.Fragments.GamesFragment;
-import loadingdata.ashish.fragments.Fragments.MoviesFragment;
-import loadingdata.ashish.fragments.Fragments.TopRatedFragment;
+import loadingdata.ashish.fragments.Fragments.Favourites;
+import loadingdata.ashish.fragments.Fragments.Calls;
+import loadingdata.ashish.fragments.Fragments.Contacts;
 import loadingdata.ashish.fragments.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -55,9 +55,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new GamesFragment(), "ONE");
-        adapter.addFragment(new MoviesFragment(), "TWO");
-        adapter.addFragment(new TopRatedFragment(), "THREE");
+        adapter.addFragment(new Favourites(), "Favourites");
+        adapter.addFragment(new Calls(), "Calls");
+        adapter.addFragment(new Contacts(), "Contacts");
         viewPager.setAdapter(adapter);
         
     }
